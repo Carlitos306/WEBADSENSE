@@ -8,49 +8,49 @@ import { ArticleCard } from '@/components/ui/ArticleCard';
 import { categoryLabel } from '@/lib/utils';
 
 interface CategoryPageProps {
-  params: { slug: string };
+  params: { category: string };
 }
 
 export async function generateStaticParams() {
-  return getCategories().map(slug => ({ slug }));
+  return getCategories().map(category => ({ category }));
 }
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
-  const category = getCategoryMeta(params.slug);
+  const category = getCategoryMeta(params.category);
   if (!category) return {};
 
   return {
     title: `${category.name} — Casa Inteligente`,
     description: category.description,
-    alternates: { canonical: `/${params.slug}` },
+    alternates: { canonical: `/${params.category}` },
     openGraph: {
       title: `${category.name} | ${siteConfig.name}`,
       description: category.description,
-      url: `/${params.slug}`,
+      url: `/${params.category}`,
       type: 'website',
     },
   };
 }
 
 export default function CategoryPage({ params }: CategoryPageProps) {
-  const category = getCategoryMeta(params.slug);
+  const category = getCategoryMeta(params.category);
   if (!category) notFound();
 
-  const articles = getArticlesByCategory(params.slug);
+  const articles = getArticlesByCategory(params.category);
 
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: `${category.name} — Casa Inteligente`,
     description: category.description,
-    url: `${siteConfig.url}/${params.slug}`,
+    url: `${siteConfig.url}/${params.category}`,
     mainEntity: {
       '@type': 'ItemList',
       numberOfItems: articles.length,
       itemListElement: articles.map((a, i) => ({
         '@type': 'ListItem',
         position: i + 1,
-        url: `${siteConfig.url}/${params.slug}/${a.slug.split('/').pop()}`,
+        url: `${siteConfig.url}/${params.category}/${a.slug.split('/').pop()}`,
         name: a.title,
       })),
     },
