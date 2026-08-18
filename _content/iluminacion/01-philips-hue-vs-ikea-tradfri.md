@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Philips Hue vs IKEA Tradfri: Comparativa de Focos Inteligentes"
 slug: /iluminacion/philips-hue-vs-ikea-tradfri
 keyword: "Philips Hue vs IKEA Tradfri"

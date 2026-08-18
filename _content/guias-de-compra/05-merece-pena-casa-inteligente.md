@@ -151,5 +151,5 @@ Una casa inteligente bien diseñada mejora la calidad de vida de forma tangible.
 
 **Lectura relacionada:**
 - [Casa inteligente para principiantes](/guias-de-compra/casa-inteligente-principiantes)
-- [10 dispositivos imprescindibles](/guias-de-compra/dispositivos-imprescendibles-domotica)
+- [10 dispositivos imprescindibles](/guias-de-compra/dispositivos-imprescindibles-domotica)
 - [Casa inteligente barata por menos de 200€](/guias-de-compra/casa-inteligente-barata-200)

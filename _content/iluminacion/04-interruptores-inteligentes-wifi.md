@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Interruptores Inteligentes WiFi: Los 5 Mejores para Instalar"
 slug: /iluminacion/interruptores-inteligentes-wifi
 keyword: "interruptores inteligentes WiFi"
@@ -7,7 +7,7 @@ kd: 12
 intencion: comparativa
 categoria: iluminacion
 fecha: 2026-08-18
-description: "Los 5 mejores interruptores inteligentes WiFi para casa. Sonoff, Shelly, Lutron y Aqara comparados en precio, instalaciÃ³n y compatibilidad."
+description: "Los 5 mejores interruptores inteligentes WiFi para casa. Sonoff, Shelly, Lutron y Aqara comparados en precio, instalación y compatibilidad."
 keywords: ["interruptor inteligente", "interruptor wifi", "interruptor alexa", "interruptor pared"]
 subcategoria: "focos"
 fechaActualizacion: "2026-08-18"
@@ -19,127 +19,127 @@ schema: "Article"
 
 # Interruptores Inteligentes WiFi: Los 5 Mejores
 
-Un interruptor inteligente permite controlar la iluminaciÃ³n existente de tu casa desde el mÃ³vil o con voz, **sin cambiar los focos**. Es la forma mÃ¡s elegante de hacer inteligente cualquier lÃ¡mpara, incluidas las que usan focos normales. Ideal para casas con cableado existente y quien no quiere depender de apps para encender y apagar luces.
+Un interruptor inteligente permite controlar la iluminación existente de tu casa desde el móvil o con voz, **sin cambiar los focos**. Es la forma más elegante de hacer inteligente cualquier lámpara, incluidas las que usan focos normales. Ideal para casas con cableado existente y quien no quiere depender de apps para encender y apagar luces.
 
-## Â¿CuÃ¡ndo Usar un Interruptor vs un Foco Inteligente?
+## ¿Cuándo Usar un Interruptor vs un Foco Inteligente?
 
-| SituaciÃ³n | Mejor opciÃ³n |
+| Situación | Mejor opción |
 |---|---|
 | Focos normales, quieres control por voz | **Interruptor inteligente** |
 | Quieres colores y escenas | **Foco inteligente** |
-| MÃºltiples focos en un mismo circuito | **Interruptor inteligente** |
+| Múltiples focos en un mismo circuito | **Interruptor inteligente** |
 | Alquiler (no puedes taladrar) | **Foco inteligente** |
-| Quieres que funcione igual que antes (interruptor fÃ­sico) | **Interruptor inteligente** |
+| Quieres que funcione igual que antes (interruptor físico) | **Interruptor inteligente** |
 
-**Consejo:** Un interruptor inteligente es mÃ¡s fiable que un foco inteligente porque no depende de WiFi del foco y funciona siempre con el interruptor fÃ­sico.
+**Consejo:** Un interruptor inteligente es más fiable que un foco inteligente porque no depende de WiFi del foco y funciona siempre con el interruptor físico.
 
 ## Top 5 Interruptores Inteligentes
 
-### 1. Sonoff T5 (TX Series) â€” El mÃ¡s popular
+### 1. Sonoff T5 (TX Series) — El más popular
 
-**Precio:** €12.99-€18.99 | **Conectividad:** WiFi | **Carga:** 10A-25A | **Colores:** SÃ­ (modelos T5)
+**Precio:** €12.99-€18.99 | **Conectividad:** WiFi | **Carga:** 10A-25A | **Colores:** Sí (modelos T5)
 
-La serie Sonoff T5 es el interruptor inteligente mÃ¡s vendido del mundo. Disponible en versiones de 1, 2 o 3 teclas, ofrece control completo por WiFi con la app eWeLink oa traves de ESPHome/Tasmota.
+La serie Sonoff T5 es el interruptor inteligente más vendido del mundo. Disponible en versiones de 1, 2 o 3 teclas, ofrece control completo por WiFi con la app eWeLink oa traves de ESPHome/Tasmota.
 
 **Puntos fuertes:**
 - Precio imbatible (€12.99)
-- ConfiguraciÃ³n sencilla
+- Configuración sencilla
 - Compatible con Alexa y Google Home
 - Modifiable con firmware personalizado (ESPHome, Tasmota)
 - Disponible en 1, 2 o 3 teclas
-- Versiones con regulaciÃ³n de brillo
+- Versiones con regulación de brillo
 
-**Puntos dÃ©biles:**
-- Requiere cableado elÃ©ctrico (instalaciÃ³n por electricista recomendada)
+**Puntos débiles:**
+- Requiere cableado eléctrico (instalación por electricista recomendada)
 - Sin HomeKit nativo
 - App eWeLink con publicidad
 
-### 2. Shelly Plus 1PM â€” El mÃ¡s versÃ¡til
+### 2. Shelly Plus 1PM — El más versátil
 
-**Precio:** €16.99 | **Conectividad:** WiFi | **Carga:** 16A | **MediciÃ³n consumo:** SÃ­
+**Precio:** €16.99 | **Conectividad:** WiFi | **Carga:** 16A | **Medición consumo:** Sí
 
-Shelly es la marca favorita de los entusiastas de la domÃ³tica. El Plus 1PM no solo controla luces, sino que **mide el consumo elÃ©ctrico** en tiempo real. Se instala detrÃ¡s del interruptor existente.
+Shelly es la marca favorita de los entusiastas de la domótica. El Plus 1PM no solo controla luces, sino que **mide el consumo eléctrico** en tiempo real. Se instala detrás del interruptor existente.
 
 **Puntos fuertes:**
-- MediciÃ³n de consumo integrada
+- Medición de consumo integrada
 - Compatible con Home Assistant (API local)
-- FTP/Web UI para configuraciÃ³n avanzada
+- FTP/Web UI para configuración avanzada
 - Mesh WiFi (mejora alcance)
 - Carga de hasta 16A
 - Firmware abierto (ESPHome, Tasmota)
 
-**Puntos dÃ©biles:**
-- MÃ¡s difÃ­cil de instalar (detrÃ¡s del interruptor)
-- Sin botÃ³n fÃ­sico integrado
-- Para usuarios tÃ©cnicos
+**Puntos débiles:**
+- Más difícil de instalar (detrás del interruptor)
+- Sin botón físico integrado
+- Para usuarios técnicos
 
-### 3. Lutron Caseta Wireless â€” El mÃ¡s fiable
+### 3. Lutron Caseta Wireless — El más fiable
 
-**Precio:** €59.99 | **Conectividad:** Propietaria (Clear Connect) | **Carga:** SÃ­
+**Precio:** €59.99 | **Conectividad:** Propietaria (Clear Connect) | **Carga:** Sí
 
-Lutron es la marca profesional de iluminaciÃ³n. Su sistema Caseta es el mÃ¡s fiable del mercado, usado en hoteles, oficinas y hogares de lujo. Funciona con un protocolo propietario que es 100% estable.
+Lutron es la marca profesional de iluminación. Su sistema Caseta es el más fiable del mercado, usado en hoteles, oficinas y hogares de lujo. Funciona con un protocolo propietario que es 100% estable.
 
 **Puntos fuertes:**
 - Fiabilidad profesional (99.9% uptime)
 - Sin interferencias WiFi
-- Bridge pequeÃ±o y discreto
+- Bridge pequeño y discreto
 - Compatible con HomeKit, Alexa, Google Home
-- IntegraciÃ³n con termostatos (Nest, Ecobee)
-- Sin latencia (respuesta instantÃ¡nea)
+- Integración con termostatos (Nest, Ecobee)
+- Sin latencia (respuesta instantánea)
 
-**Puntos dÃ©biles:**
-- El mÃ¡s caro (€59.99 por interruptor)
+**Puntos débiles:**
+- El más caro (€59.99 por interruptor)
 - Requiere bridge propietario (€89.99)
 - Gama limitada de accesorios
-- Solo en NorteamÃ©rica
+- Solo en Norteamérica
 
-### 4. TP-Link Tapo S500D â€” El mejor por su precio
+### 4. TP-Link Tapo S500D — El mejor por su precio
 
 **Precio:** €14.99 | **Conectividad:** WiFi | **Carga:** 10A | **Colores:** No
 
-El Tapo S500D es un interruptor inteligente simple y efectivo. Sin fanciness, solo encender/apagar luces con el mÃ³vil o voz. La app Tapo es de las mejores del mercado.
+El Tapo S500D es un interruptor inteligente simple y efectivo. Sin fanciness, solo encender/apagar luces con el móvil o voz. La app Tapo es de las mejores del mercado.
 
 **Puntos fuertes:**
 - Precio competitivo (€14.99)
 - App Tapo excelente
 - Compatible con Alexa y Google Home
-- FÃ¡cil instalaciÃ³n
+- Fácil instalación
 - Modo horarios y temporizadores
 
-**Puntos dÃ©biles:**
-- Sin regulaciÃ³n de brillo
-- Sin mediciÃ³n de consumo
+**Puntos débiles:**
+- Sin regulación de brillo
+- Sin medición de consumo
 - Sin compatibilidad HomeKit
 
-### 5. Aqara Wall Switch D1 â€” El mÃ¡s elegante
+### 5. Aqara Wall Switch D1 — El más elegante
 
 **Precio:** €39.99 | **Conectividad:** Zigbee | **Carga:** 10A | **Botones:** 1-3
 
-Aqara ofrece interruptores de pared con diseÃ±o premium y compatibilidad con mÃºltiples ecosistemas. Se conectan por Zigbee al hub Aqara y son compatibles con HomeKit.
+Aqara ofrece interruptores de pared con diseño premium y compatibilidad con múltiples ecosistemas. Se conectan por Zigbee al hub Aqara y son compatibles con HomeKit.
 
 **Puntos fuertes:**
-- DiseÃ±o premium (aluminio, cristal)
+- Diseño premium (aluminio, cristal)
 - Compatible con HomeKit, Alexa, Google Home
 - Zigbee (bajo consumo, estable)
 - Modo deslizante (touch)
 - Disponible en 1, 2 o 3 teclas
 
-**Puntos dÃ©biles:**
-- Precio mÃ¡s elevado (€39.99)
+**Puntos débiles:**
+- Precio más elevado (€39.99)
 - Requiere hub Aqara (€59.99)
-- InstalaciÃ³n por electricista
+- Instalación por electricista
 
 ## Comparativa
 
 | Interruptor | Precio | Conectividad | HomeKit | Brillo | Consumo |
 |---|---|---|---|---|---|
-| Sonoff T5 | €12.99 | WiFi | No | SÃ­ (modelos) | No |
-| Shelly Plus 1PM | €16.99 | WiFi | No | No | SÃ­ |
-| Lutron Caseta | €59.99 | Propietaria | SÃ­ | No | No |
+| Sonoff T5 | €12.99 | WiFi | No | Sí (modelos) | No |
+| Shelly Plus 1PM | €16.99 | WiFi | No | No | Sí |
+| Lutron Caseta | €59.99 | Propietaria | Sí | No | No |
 | Tapo S500D | €14.99 | WiFi | No | No | No |
-| Aqara D1 | €39.99 | Zigbee | SÃ­ | No | No |
+| Aqara D1 | €39.99 | Zigbee | Sí | No | No |
 
-## InstalaciÃ³n: Â¡Cuidado con la Electricidad!
+## Instalación: ¡Cuidado con la Electricidad!
 
 **IMPORTANTE:** Un interruptor inteligente se instala en la **caja de registro** del interruptor existente, donde hay cables de 220V. Si no tienes experiencia con electricidad, **contrata a un electricista**.
 
@@ -149,13 +149,13 @@ Aqara ofrece interruptores de pared con diseÃ±o premium y compatibilidad con m
 - **Interruptor con retorno:** 3 cables (fase + retorno + neutro)
 - **Con neutro:** 4 cables (necesario para algunos modelos WiFi)
 
-**Los interruptores WiFi necesitan neutro.** Si tu casa no tiene neutro en las cajas de interruptores (comÃºn en instalaciones antiguas), usa modelos Zigbee (Aqara) o busca interruptores que no requieran neutro (Sonoff T4).
+**Los interruptores WiFi necesitan neutro.** Si tu casa no tiene neutro en las cajas de interruptores (común en instalaciones antiguas), usa modelos Zigbee (Aqara) o busca interruptores que no requieran neutro (Sonoff T4).
 
-## ConclusiÃ³n
+## Conclusión
 
-Un interruptor inteligente es la inversiÃ³n mÃ¡s prÃ¡ctica en iluminaciÃ³n inteligente. Por €13-€40 puedes controlar cualquier lÃ¡mpara de tu casa con la voz, sin cambiar focos ni depender de baterÃ­as. Para la mayorÃ­a de usuarios, el **Sonoff T5** ofrece la mejor relaciÃ³n calidad-precio.
+Un interruptor inteligente es la inversión más práctica en iluminación inteligente. Por €13-€40 puedes controlar cualquier lámpara de tu casa con la voz, sin cambiar focos ni depender de baterías. Para la mayoría de usuarios, el **Sonoff T5** ofrece la mejor relación calidad-precio.
 
 **Lectura relacionada:**
 - [Focos inteligentes WiFi baratos](/iluminacion/focos-inteligentes-wifi-baratos)
 - [Philips Hue vs IKEA Tradfri](/iluminacion/philips-hue-vs-ikea-tradfri)
-- [GuÃ­a completa de iluminaciÃ³n](/guias-de-compra/casa-inteligente-principiantes)
+- [Guía completa de iluminación](/guias-de-compra/casa-inteligente-principiantes)

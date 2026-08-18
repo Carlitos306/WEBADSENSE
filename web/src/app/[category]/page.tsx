@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getCategoryMeta, getArticlesByCategory } from '@/lib/articles';
+import { getCategoryMeta, getArticlesByCategory, getCategories } from '@/lib/articles';
 import { siteConfig } from '@/lib/config';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { ArticleCard } from '@/components/ui/ArticleCard';
@@ -12,12 +12,7 @@ interface CategoryPageProps {
 }
 
 export async function generateStaticParams() {
-  return [
-    { slug: 'seguridad' },
-    { slug: 'iluminacion' },
-    { slug: 'asistentes-hubs' },
-    { slug: 'guias-de-compra' },
-  ];
+  return getCategories().map(slug => ({ slug }));
 }
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {

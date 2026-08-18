@@ -6,29 +6,54 @@ import html from 'remark-html';
 import gfm from 'remark-gfm';
 import readingTime from 'reading-time';
 import type { Article, ArticleSummary, ArticleFrontmatter, Category } from '@/types';
+import { normalizeInternalLink } from './links';
 
 const CONTENT_DIR = path.join(process.cwd(), '..', '_content');
 
-export function getAllArticleSlugs(): string[] {
-  const slugs: string[] = [];
-  const categories = getCategories();
+let slugFileMapCache: Map<string, string> | null = null;
 
-  for (const cat of categories) {
+function getSlugFileMap(): Map<string, string> {
+  if (slugFileMapCache) return slugFileMapCache;
+
+  const map = new Map<string, string>();
+  for (const cat of getCategories()) {
     const catDir = path.join(CONTENT_DIR, cat);
     if (!fs.existsSync(catDir)) continue;
     const files = fs.readdirSync(catDir).filter(f => f.endsWith('.md'));
     for (const file of files) {
-      slugs.push(`${cat}/${file.replace('.md', '')}`);
+      const filePath = path.join(catDir, file);
+      const fileContents = fs.readFileSync(filePath, 'utf8');
+      const { data } = matter(fileContents);
+      const slug = (data.slug || `/${cat}/${file.replace('.md', '')}`).replace(/^\/+/, '');
+      map.set(slug, filePath);
     }
   }
-  return slugs;
+
+  slugFileMapCache = map;
+  return map;
+}
+
+function resolveFileBySlug(slug: string): string | null {
+  const filePath = getSlugFileMap().get(slug);
+  if (filePath) return filePath;
+
+  const parts = slug.split('/');
+  if (parts.length !== 2) return null;
+
+  const directPath = path.join(CONTENT_DIR, parts[0], `${parts[1]}.md`);
+  return fs.existsSync(directPath) ? directPath : null;
+}
+
+export function getAllArticleSlugs(): string[] {
+  return Array.from(getSlugFileMap().keys());
 }
 
 export function getCategories(): string[] {
   if (!fs.existsSync(CONTENT_DIR)) return [];
   return fs.readdirSync(CONTENT_DIR).filter(f => {
     const fullPath = path.join(CONTENT_DIR, f);
-    return fs.statSync(fullPath).isDirectory();
+    if (!fs.statSync(fullPath).isDirectory()) return false;
+    return fs.readdirSync(fullPath).some(file => file.endsWith('.md'));
   });
 }
 
@@ -42,6 +67,7 @@ export function getCategoryMeta(slug: string): Category | null {
     'electrodomesticos': { name: 'Electrodomésticos', description: 'Aspiradores robot, cocinas inteligentes y electrodomésticos conectados.', icon: 'WashingMachine' },
     'entretenimiento': { name: 'Entretenimiento', description: 'Audio multiroom, streaming y sistemas de sonido inteligente.', icon: 'Music' },
     'tutoriales': { name: 'Tutoriales', description: 'Guías paso a paso para instalar, configurar y resolver problemas de dispositivos smart home.', icon: 'BookOpen' },
+    'persianas': { name: 'Persianas', description: 'Persianas inteligentes, motores WiFi y automatización de ventanas para tu casa conectada.', icon: 'Blinds' },
   };
 
   const info = meta[slug];
@@ -57,16 +83,13 @@ export function getCategoryMeta(slug: string): Category | null {
 }
 
 export function getArticleBySlug(slug: string): Article | null {
-  const parts = slug.split('/');
-  if (parts.length !== 2) return null;
-
-  const [category, articleSlug] = parts;
-  const filePath = path.join(CONTENT_DIR, category, `${articleSlug}.md`);
-
-  if (!fs.existsSync(filePath)) return null;
+  const filePath = resolveFileBySlug(slug);
+  if (!filePath) return null;
 
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const { data, content } = matter(fileContents);
+
+  const category = data.categoria || slug.split('/')[0] || '';
 
   const processedContent = remark()
     .use(gfm)
@@ -110,9 +133,8 @@ export function getAllArticles(): ArticleSummary[] {
   const articles: ArticleSummary[] = [];
 
   for (const slug of slugs) {
-    const parts = slug.split('/');
-    const filePath = path.join(CONTENT_DIR, parts[0], `${parts[1]}.md`);
-    if (!fs.existsSync(filePath)) continue;
+    const filePath = getSlugFileMap().get(slug);
+    if (!filePath) continue;
 
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const { data } = matter(fileContents);
@@ -121,7 +143,7 @@ export function getAllArticles(): ArticleSummary[] {
       title: data.title || '',
       slug: data.slug || slug,
       description: data.description,
-      categoria: data.categoria || parts[0],
+      categoria: data.categoria || slug.split('/')[0],
       intencion: data.intencion || 'informativa',
       keyword: data.keyword || '',
     });
@@ -232,7 +254,7 @@ export function addInternalLinks(html: string, currentSlug: string, currentCateg
     }
     if (inHeading) continue;
 
-    const relativeSlug = slug.startsWith('/') ? slug : `/${slug}`;
+    const relativeSlug = normalizeInternalLink(slug);
     result = result.replace(regex, (m) => {
       linked.add(slug);
       linkCount++;

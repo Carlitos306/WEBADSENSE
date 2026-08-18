@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sensores de Movimiento WiFi para Casa: Los Mejores 2026"
 slug: /seguridad/sensores-de-movimiento-wifi-casa
 keyword: "sensores de movimiento WiFi para casa"
@@ -19,81 +19,81 @@ schema: "Article"
 
 # Sensores de Movimiento WiFi para Casa: Los Mejores 2026
 
-Los sensores de movimiento son componentes esenciales de cualquier sistema de casa inteligente. MÃ¡s allÃ¡ de la seguridad, permiten **automatizar luces, activar climatizaciÃ³n, enviar alertas** y crear escenas inteligentes. En esta guÃ­a comparamos las mejores opciones WiFi y Zigbee disponibles en 2026.
+Los sensores de movimiento son componentes esenciales de cualquier sistema de casa inteligente. Más allá de la seguridad, permiten **automatizar luces, activar climatización, enviar alertas** y crear escenas inteligentes. En esta guía comparamos las mejores opciones WiFi y Zigbee disponibles en 2026.
 
 ## Tipos de Sensores de Movimiento
 
 ### Sensor PIR (Infrarrojo Pasivo)
 - Detecta cambios de calor (cuerpos humanos)
-- Consumo bajo (baterÃ­a dura aÃ±os)
-- No detecta mascotas pequeÃ±as (en la mayorÃ­a)
-- Rango tÃ­pico: 7-12 metros, 120Â° Ã¡ngulo
+- Consumo bajo (batería dura años)
+- No detecta mascotas pequeñas (en la mayoría)
+- Rango típico: 7-12 metros, 120° ángulo
 
 ### Sensor de Microondas
 - Emite ondas y detecta reflexiones
-- Detecta movimiento a travÃ©s de paredes finas
-- MÃ¡s caro, mÃ¡s falso positivos
+- Detecta movimiento a través de paredes finas
+- Más caro, más falso positivos
 - Rango: hasta 15 metros
 
 ### Sensor Dual (PIR + Microondas)
 - Combina ambos tipos
 - Reduce falsas alarmas significativamente
-- El mÃ¡s fiable para seguridad
+- El más fiable para seguridad
 - Precio: €30-€60
 
-### Sensor de VisiÃ³n con IA
-- CÃ¡mara con detecciÃ³n de personas/mascotas
-- Puede grabar vÃ­deo del evento
-- MÃ¡s caro, necesita alimentaciÃ³n
+### Sensor de Visión con IA
+- Cámara con detección de personas/mascotas
+- Puede grabar vídeo del evento
+- Más caro, necesita alimentación
 - Ejemplo: Eufy SmartDrop
 
 ## Top 5 Sensores de Movimiento 2026
 
-### 1. SONOFF SNZB-06P â€” El mÃ¡s barato y fiable
+### 1. SONOFF SNZB-06P — El más barato y fiable
 
-**Precio:** €12.99 | **Protocolo:** Zigbee | **BaterÃ­a:** CR2477 (3+ aÃ±os) | **Rango:** 9m, 120Â°
+**Precio:** €12.99 | **Protocolo:** Zigbee | **Batería:** CR2477 (3+ años) | **Rango:** 9m, 120°
 
-El SNZB-06P es el sensor de movimiento mÃ¡s vendido del mundo y por buen motivo. A €12.99 ofrece detecciÃ³n fiable, compatibilidad con prÃ¡cticamente cualquier hub Zigbee y una baterÃ­a que dura mÃ¡s de 3 aÃ±os.
+El SNZB-06P es el sensor de movimiento más vendido del mundo y por buen motivo. A €12.99 ofrece detección fiable, compatibilidad con prácticamente cualquier hub Zigbee y una batería que dura más de 3 años.
 
 **Compatible con:** Home Assistant, SmartThings, Zigbee2MQTT, Hubitat
 
 **Ideal para:** Principiantes y quien necesita muchos sensores a bajo coste.
 
-### 2. Aqara Motion Sensor P2 â€” El mÃ¡s preciso
+### 2. Aqara Motion Sensor P2 — El más preciso
 
-**Precio:** €29.99 | **Protocolo:** Matter/Zigbee | **BaterÃ­a:** CR2450 (2 aÃ±os) | **Rango:** 7m, 170Â°
+**Precio:** €29.99 | **Protocolo:** Matter/Zigbee | **Batería:** CR2450 (2 años) | **Rango:** 7m, 170°
 
-La Aqara P2 es el sensor mÃ¡s preciso del mercado con detecciÃ³n de **iluminancia** ademÃ¡s de movimiento. Esto permite automatizaciones como "encender luces cuando oscurece y hay movimiento".
+La Aqara P2 es el sensor más preciso del mercado con detección de **iluminancia** además de movimiento. Esto permite automatizaciones como "encender luces cuando oscurece y hay movimiento".
 
 **Compatible con:** HomeKit, Alexa, Google Home, Home Assistant, Matter
 
-**Ideal para:** Usuarios Apple y quienes quieren la mÃ¡xima precisiÃ³n.
+**Ideal para:** Usuarios Apple y quienes quieren la máxima precisión.
 
-### 3. Aeotec MultiSensor 7 â€” El mÃ¡s completo
+### 3. Aeotec MultiSensor 7 — El más completo
 
-**Precio:** €49.99 | **Protocolo:** Z-Wave Plus | **BaterÃ­a:** CR123A (3 aÃ±os) | **Rango:** 10m, 130Â°
+**Precio:** €49.99 | **Protocolo:** Z-Wave Plus | **Batería:** CR123A (3 años) | **Rango:** 10m, 130°
 
-El Aeotec no es solo un sensor de movimiento: mide **temperatura, humedad, luz, vibraciÃ³n y UV**. Es un sensor multipropÃ³sito que se puede usar para seguridad y climatizaciÃ³n.
+El Aeotec no es solo un sensor de movimiento: mide **temperatura, humedad, luz, vibración y UV**. Es un sensor multipropósito que se puede usar para seguridad y climatización.
 
 **Compatible con:** Home Assistant, SmartThings, Hubitat, cualquier hub Z-Wave
 
 **Ideal para:** Hogares que quieren un sensor todo-en-uno.
 
-### 4. Philips Hue Motion Sensor â€” El mejor para iluminaciÃ³n
+### 4. Philips Hue Motion Sensor — El mejor para iluminación
 
-**Precio:** €39.99 | **Protocolo:** Zigbee | **BaterÃ­a:** AAA (2 aÃ±os) | **Rango:** 10m, 100Â°
+**Precio:** €39.99 | **Protocolo:** Zigbee | **Batería:** AAA (2 años) | **Rango:** 10m, 100°
 
-Si ya tienes iluminaciÃ³n Philips Hue, este sensor es imprescindible. Se vincula directamente con los focos Hue para encender las luces al detectar movimiento, sin necesidad de hub adicional.
+Si ya tienes iluminación Philips Hue, este sensor es imprescindible. Se vincula directamente con los focos Hue para encender las luces al detectar movimiento, sin necesidad de hub adicional.
 
 **Compatible con:** Philips Hue Bridge, Home Assistant, HomeKit (via Hue)
 
 **Ideal para:** Usuarios del ecosistema Philips Hue.
 
-### 5. Yale Motion Sensor â€” El mÃ¡s robusto
+### 5. Yale Motion Sensor — El más robusto
 
-**Precio:** €34.99 | **Protocolo:** Z-Wave | **BaterÃ­a:** CR123A (3 aÃ±os) | **Rango:** 12m, 110Â°
+**Precio:** €34.99 | **Protocolo:** Z-Wave | **Batería:** CR123A (3 años) | **Rango:** 12m, 110°
 
-Yale fabrica sensores de grado profesional con certificaciÃ³n de seguridad. Su sensor de movimiento tiene el mayor rango de la lista (12 metros) y resistencia IP54 para uso exterior.
+Yale fabrica sensores de grado profesional con certificación de seguridad. Su sensor de movimiento tiene el mayor rango de la lista (12 metros) y resistencia IP54 para uso exterior.
 
 **Compatible con:** Ring Alarm, SmartThings, Hubitat, Home Assistant
 
@@ -101,57 +101,57 @@ Yale fabrica sensores de grado profesional con certificaciÃ³n de seguridad. Su
 
 ## Comparativa
 
-| Sensor | Precio | Protocolo | Rango | BaterÃ­a | Extra |
+| Sensor | Precio | Protocolo | Rango | Batería | Extra |
 |---|---|---|---|---|---|
-| SONOFF SNZB-06P | €12.99 | Zigbee | 9m | 3 aÃ±os | Precio |
-| Aqara P2 | €29.99 | Matter | 7m | 2 aÃ±os | Iluminancia |
-| Aeotec MultiSensor | €49.99 | Z-Wave | 10m | 3 aÃ±os | 6 sensores |
-| Philips Hue | €39.99 | Zigbee | 10m | 2 aÃ±os | IluminaciÃ³n |
-| Yale Motion | €34.99 | Z-Wave | 12m | 3 aÃ±os | Rango/Exterior |
+| SONOFF SNZB-06P | €12.99 | Zigbee | 9m | 3 años | Precio |
+| Aqara P2 | €29.99 | Matter | 7m | 2 años | Iluminancia |
+| Aeotec MultiSensor | €49.99 | Z-Wave | 10m | 3 años | 6 sensores |
+| Philips Hue | €39.99 | Zigbee | 10m | 2 años | Iluminación |
+| Yale Motion | €34.99 | Z-Wave | 12m | 3 años | Rango/Exterior |
 
-## Automatizaciones Ãštiles con Sensores de Movimiento
+## Automatizaciones Útiles con Sensores de Movimiento
 
-### 1. Luces automÃ¡ticas
-Cuando alguien entra en una habitaciÃ³n â†’ encender luces al 50%. Cuando no hay movimiento durante 5 minutos â†’ apagar.
+### 1. Luces automáticas
+Cuando alguien entra en una habitación → encender luces al 50%. Cuando no hay movimiento durante 5 minutos → apagar.
 
 ### 2. Alarma inversa
-Cuando la alarma estÃ¡ activada + movimiento en zona no autorizada â†’ activar sirena + notificaciÃ³n mÃ³vil.
+Cuando la alarma está activada + movimiento en zona no autorizada → activar sirena + notificación móvil.
 
-### 3. CalefacciÃ³n inteligente
-Cuando hay movimiento en casa + temperatura < 20Â°C â†’ activar calefacciÃ³n. Cuando no hay nadie 2 horas â†’ reducir temperatura.
+### 3. Calefacción inteligente
+Cuando hay movimiento en casa + temperatura < 20°C → activar calefacción. Cuando no hay nadie 2 horas → reducir temperatura.
 
 ### 4. Alerta de mascota
-Cuando se detecta movimiento en zona de mascota + horario nocturno â†’ notificaciÃ³n silenciosa.
+Cuando se detecta movimiento en zona de mascota + horario nocturno → notificación silenciosa.
 
 ### 5. Bienvenida
-Cuando llegas a casa (geofencing) + movimiento en pasillo â†’ encender luces, mostrar mensaje en pantalla.
+Cuando llegas a casa (geofencing) + movimiento en pasillo → encender luces, mostrar mensaje en pantalla.
 
-## Â¿WiFi o Zigbee?
+## ¿WiFi o Zigbee?
 
-| CaracterÃ­stica | WiFi | Zigbee |
+| Característica | WiFi | Zigbee |
 |---|---|---|
 | Precio | €15-€40 | €10-€30 |
-| Consumo baterÃ­a | Alto | Muy bajo |
-| DuraciÃ³n baterÃ­a | 6-12 meses | 2-3 aÃ±os |
+| Consumo batería | Alto | Muy bajo |
+| Duración batería | 6-12 meses | 2-3 años |
 | Rango | Depende del router | 10-100m (mesh) |
-| Velocidad | RÃ¡pida | RÃ¡pida |
-| NÃºmero de dispositivos | Limitado por router | Ilimitado (mesh) |
-| Requiere hub | No | SÃ­ |
+| Velocidad | Rápida | Rápida |
+| Número de dispositivos | Limitado por router | Ilimitado (mesh) |
+| Requiere hub | No | Sí |
 
-**Veredicto:** Para sensores de movimiento, **Zigbee es superior**. El consumo de baterÃ­a es muchÃ­simo menor y la red mesh permite cubrir casas grandes sin problemas. WiFi solo tiene sentido si no quieres comprar un hub.
+**Veredicto:** Para sensores de movimiento, **Zigbee es superior**. El consumo de batería es muchísimo menor y la red mesh permite cubrir casas grandes sin problemas. WiFi solo tiene sentido si no quieres comprar un hub.
 
-## ColocaciÃ³n Ã“ptima
+## Colocación Óptima
 
 - **Altura:** 2-2.5 metros del suelo
-- **Ãngulo:** Apuntar hacia la zona de paso, no hacia fuentes de calor
+- **Ángulo:** Apuntar hacia la zona de paso, no hacia fuentes de calor
 - **Evitar:** Near ventanas (falsos positivos por sol), frente a radiadores, en corrientes de aire
 - **Esquinas:** Las esquinas opuestas a la puerta dan la mejor cobertura
 
-## ConclusiÃ³n
+## Conclusión
 
-Un sensor de movimiento es una de las inversiones mÃ¡s baratas y versÃ¡tiles en casa inteligente. A partir de €12.99 puedes aÃ±adir automatizaciones y seguridad a cualquier habitaciÃ³n. Para la mayorÃ­a de usuarios, el **SONOFF SNZB-06P** es la opciÃ³n mÃ¡s inteligente por su precio y compatibilidad.
+Un sensor de movimiento es una de las inversiones más baratas y versátiles en casa inteligente. A partir de €12.99 puedes añadir automatizaciones y seguridad a cualquier habitación. Para la mayoría de usuarios, el **SONOFF SNZB-06P** es la opción más inteligente por su precio y compatibilidad.
 
 **Lectura relacionada:**
 - [Sistema de seguridad casero DIY](/seguridad/sistema-seguridad-casero-diy)
-- [CÃ³mo configurar Home Assistant](/asistentes-hubs/home-assistant-guia-instalacion)
+- [Cómo configurar Home Assistant](/asistentes-hubs/home-assistant-guia-instalacion)
 - [Focos inteligentes WiFi baratos](/iluminacion/focos-inteligentes-wifi-baratos)
